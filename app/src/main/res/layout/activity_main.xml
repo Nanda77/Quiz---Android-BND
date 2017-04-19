@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.android.quiz.MainActivity"
+    android:background="#E0E0E0">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who was the CEO of Apple Inc. in 2007 ?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q1_yes_radio_button"
+                style="@style/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Steve Jobs" />
+
+            <RadioButton
+                android:id="@+id/q1_no_radio_button"
+                style="@style/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tim Cook" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Who is the founder of Virgin Group ?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/q2_no_radio_button"
+                style="@style/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Warren Buffet" />
+
+            <RadioButton
+                android:id="@+id/q2_yes_radio_button"
+                style="@style/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Richard Branson" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Who is the CEO of Tesla ?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q3_no_radio_button"
+                style="@style/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kimbal Musk" />
+
+            <RadioButton
+                android:id="@+id/q3_yes_radio_button"
+                style="@style/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elon Musk" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who is the CEO of Facebook ?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q4_yes_radio_button"
+                style="@style/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mark Zuckerberg" />
+
+            <RadioButton
+                android:id="@+id/q4_no_radio_button"
+                style="@style/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sheryl Sandberg" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brian Krzanich is CEO of ?" />
+
+        <EditText
+            android:id="@+id/q5_textinput"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer" />
+
+        <TextView
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sundar Pichai is CEO of ? " />
+
+        <EditText
+            android:id="@+id/q6_textinput"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer" />
+
+        <TextView
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Travis Kalanick is CEO of ? " />
+
+        <EditText
+            android:id="@+id/q7_textinput"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer" />
+
+
+        <TextView
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Founders of Google ?" />
+
+
+        <CheckBox
+            android:id="@+id/q8_a"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sergey Brin" />
+
+        <CheckBox
+            android:id="@+id/q8_b"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eric Schmidt" />
+
+        <CheckBox
+            android:id="@+id/q8_c"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Larry Page" />
+
+        <CheckBox
+            android:id="@+id/q8_d"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sundar Pichai" />
+
+
+        <TextView
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Founders of Microsoft ?" />
+
+        <CheckBox
+            android:id="@+id/q9_a"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bill Gates" />
+
+        <CheckBox
+            android:id="@+id/q9_b"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paul Allen" />
+
+        <CheckBox
+            android:id="@+id/q9_c"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satya Nadella" />
+
+        <CheckBox
+            android:id="@+id/q9_d"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steve Balmer" />
+
+        <TextView
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Founders of Apple Inc.?" />
+
+        <CheckBox
+            android:id="@+id/q10_a"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steve Jobs" />
+
+        <CheckBox
+            android:id="@+id/q10_b"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steve Woznaik" />
+
+        <CheckBox
+            android:id="@+id/q10_c"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mike Markkula" />
+
+        <CheckBox
+            android:id="@+id/q10_d"
+            style="@style/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ronald Wayne" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#9E9E9E"
+            android:textColor="#000000"
+            android:onClick="evaluate"
+            android:text="submit" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
